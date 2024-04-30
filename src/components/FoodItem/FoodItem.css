@@ -1,0 +1,126 @@
+.food-items{
+    width: 260px;
+    height: inherit;
+    box-shadow: 1px 1px 20px gray;
+    border-radius: 15px;
+    
+}
+.image-container .image{
+    width: 259px;
+    border-radius: 15px;
+    height: 32vh;
+
+}
+
+.food-items .info{
+    padding: 15px;
+}
+.info .rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.rating>p{
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+.rating>img{
+    height: 3vh;
+    width: 60px;
+}
+ .description{
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.info h5{
+    font-size: 22px;
+    color: red;
+    font-weight: bold;
+}
+.image-container{
+    position: relative;
+}
+.image-container .add{
+    position:absolute;
+    bottom:10px;
+    right: 20px;
+}
+.counter{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    bottom:10px;
+    right: 20px;
+
+}
+.counter>p{
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 0 8px;
+    text-align: center;
+}
+
+@media screen and (max-width:500px){
+    .food-items{
+    
+        width: 250px;
+        box-shadow: 1px 1px 20px gray;
+        border-radius: 15px;
+        
+    }
+    .image-container .image{
+        width: 249px;
+        border-radius: 15px;
+        height: 30vh;
+    
+    }
+    
+    .food-items .info{
+        padding: 15px;
+    }
+    .info .rating{
+       margin-bottom: 15px;
+    }
+    .rating>p{
+        font-size: 15px;
+
+    }
+    .rating>img{
+        height: 3vh;
+        width: 60px;
+    }
+     .description{
+        font-size: 11px;
+        margin-bottom: 15px;
+    }
+    .info h5{
+        font-size: 15px;
+        
+    }
+    .image-container{
+        position: relative;
+    }
+    .image-container .add{
+    
+        bottom:10px;
+        right: 20px;
+    }
+    .counter{
+        bottom:10px;
+        right: 20px;
+    
+    }
+    .counter>p{
+        font-size: 12px;
+        margin: 0 8px;
+        text-align: center;
+    }
+    
+    
+}

@@ -1,0 +1,48 @@
+.order{
+    margin-top: 120px;
+    height: 40vh;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px gray;
+}
+.order-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.order>h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+}
+.order>img{
+    height: 20vh;
+    width: 150px;
+}
+
+@media screen and (max-width:500px){
+    .order{
+        margin-top: 120px;
+        height: 35vh;
+        width: 220px;
+        display: flex;
+        box-shadow: 1px 1px 5px gray;
+    }
+    
+    .order>h1{
+        text-align: center;
+        margin-bottom: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 17px;
+    }
+    .order>img{
+        height: 11vh;
+        width: 85px;
+    }
+    
+}

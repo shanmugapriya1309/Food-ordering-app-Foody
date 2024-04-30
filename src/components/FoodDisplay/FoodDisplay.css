@@ -1,0 +1,34 @@
+.food-display{
+    margin-top: 45px;
+    padding:0px 62px;
+}
+.food-display h2{
+    font-weight: 600;
+    font-size: 34px;
+    margin-bottom: 60px;
+}
+.food-display-list{
+    margin-right: 70px;
+    display:grid;
+    grid-template-columns: repeat(auto-fill,222px);
+    gap:60px;
+
+}
+
+@media screen and (max-width:500px){
+    .food-display{
+        margin-top: 20px;
+        padding:0px 62px;
+    }
+    .food-display h2{
+        font-weight: 600;
+        font-size: 17px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .food-display-list{
+        margin-right: 70px;
+        gap:30px;
+     }
+    
+}

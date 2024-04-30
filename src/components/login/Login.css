@@ -1,0 +1,115 @@
+.login{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color:#03030390;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    place-self: center;
+    background-color: white;
+    width: 360px;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.login-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.login-header>img{
+    height: 5vh;
+    width: 30px;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 17px;
+}
+.button>input{
+    height: 38px;
+    padding: 10px;
+}
+.button>button{
+    height: 38px;
+    background-color: rgb(175, 60, 25);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 20px;
+}
+.account{
+    margin-top: 25px;
+
+}
+.checkbox>input{
+    margin-right: 10px;
+}
+.account>p>span{
+    color: rgb(175, 60, 25);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:500px){
+    
+
+.login{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+
+}
+.container{
+
+    width: 240px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.login-header>img{
+    height: 3vh;
+    width: 15px;
+}
+.login-header>h2{
+    font-size: 14px;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 17px;
+}
+.button>input{
+    height: 19px;
+    margin: 0px;
+    font-size: 10px;
+}
+.button>button{
+    height: 22px;
+    font-size: 10px;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 10px;
+}
+.account{
+    margin-top: 10px;
+
+}
+.checkbox>input{
+    margin-right: 10px;
+}
+.account>p>span{
+
+    font-size: 10px;
+}
+.account>p{
+    font-size: 10px;
+}
+
+}

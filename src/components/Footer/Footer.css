@@ -1,0 +1,143 @@
+.footer{
+    width: 100%;
+    height: 50vh;
+    padding: 50px 70px;
+    background-color: rgb(52, 51, 51);
+    color: white;
+    margin-top: 60px;
+    
+}
+.footer-content{
+    display: grid;
+    grid-template-columns:45% 25% 25%;
+    grid-column-gap: 30px;
+
+    
+}
+#hr{
+    margin:20px 0;
+}
+#copyright{
+    padding-left: 40%;
+}
+
+.footer-content-left>p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer-icons>img{
+    margin-left: 15px;
+}
+.footer-content-center>h3{
+    padding-left: 35px;
+    margin-bottom: 17px;
+    font-weight: bold;
+}
+.footer-content-center>ul>li{
+    list-style-type: none;
+    margin-top: 8px;
+    font-weight: lighter;
+    /* font-size: 25px; */
+}
+.footer-content-right>h3{
+   margin-bottom: 17px;
+   font-weight: bold;
+}
+.footer-content-right>h5{
+    margin-bottom:8px;
+    font-size: 15px;
+    font-weight:lighter;
+ }
+ .foody{
+    color:orangered;
+    font-weight: bolder;
+    line-height: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    margin-bottom:30px;
+    
+}
+
+
+.foody::first-letter{
+    font-size: 40px;
+    color: brown;
+}
+
+
+@media screen and (max-width:500px){
+    .footer{
+        width: 100%;
+        height: 65vh;
+        padding: 20px 20px;
+        margin-top: 60px;
+        
+    }
+    .footer-content{
+        display: grid;
+        grid-template-columns:65% 35%;
+        grid-column-gap: 10px;
+    
+        
+    }
+    #hr{
+        margin:20px 0;
+    }
+    
+    
+    #copyright{
+        padding-left: 30px;
+        font-size: 13px;
+        /* text-align: center; */
+    }
+    .footer-content-center>h3{
+        font-size: 14px;
+    }
+    .footer-content-left>p{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 13px;
+    }
+    .footer-icons>img{
+    
+        margin: 0px;
+        height: 5vh;
+        width: 23px;
+        margin-right: 5px;
+    }
+    .footer-content-center>h3{
+        padding-left: 35px;
+        margin-bottom: 17px;
+        font-weight: bold;
+    }
+    .footer-content-center>ul>li{
+        
+        font-size: 13px;
+        
+    }
+    .footer-content-right>h3{
+        margin-top: 10px;
+       margin-bottom: 7px;
+       font-weight: bold;
+       font-size: 13px;
+    }
+    .footer-content-right>h5{
+        margin-bottom:4px;
+        font-size: 12px;
+        font-weight:lighter;
+     }
+     .foody{
+    
+        line-height: 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 17px;
+        margin-bottom:8px;
+        
+    }
+    
+    
+    .foody::first-letter{
+        font-size: 18px;
+        color: brown;
+    }
+}
